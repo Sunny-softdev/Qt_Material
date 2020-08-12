@@ -86,7 +86,7 @@ Widget::Widget(QWidget *parent)
         qDebug() <<"Following is the entered HTML" << textEdit->toHtml();
     });
 
-
+    setFixedSize(400,400);
 
 }
 
